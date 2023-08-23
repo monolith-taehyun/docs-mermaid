@@ -359,7 +359,7 @@ erDiagram
 
 ```mermaid
 journey
-    title My working day
+    title 나의 일과
     section Go to work
       Make tea: 5: Me
       Go upstairs: 3: Me
@@ -371,7 +371,7 @@ journey
 
 ```
 journey
-    title My working day
+    title 나의 일과
     section Go to work
       Make tea: 5: Me
       Go upstairs: 3: Me
@@ -388,7 +388,7 @@ journey
 
 ```mermaid
 gantt
-	title Using Tags in Gantt chart
+	title 간트 차트 예시
 	section Phase-A
 		Task-1 : done,a1, 2021-01-01, 30d
 		Task-2 : after a1  , 20d
@@ -405,7 +405,7 @@ gantt
 
 ```
 gantt
-	title Using Tags in Gantt chart
+	title 간트 차트 예시
 	section Phase-A
 		Task-1 : done,a1, 2021-01-01, 30d
 		Task-2 : after a1  , 20d
@@ -426,7 +426,7 @@ gantt
 숫자 비율을 보여주기 위해 여러 조각으로 나누어진 원형 통계 그래픽입니다.
 
 ```mermaid
-pie title Pets adopted by volunteers
+pie title 입양된 동물 비율
     "Dogs" : 386
     "Cats" : 85
     "Rats" : 15
@@ -446,13 +446,13 @@ pie title Pets adopted by volunteers
 
 ```mermaid
 quadrantChart
-    title Reach and engagement of campaigns
-    x-axis Low Reach --> High Reach
-    y-axis Low Engagement --> High Engagement
-    quadrant-1 We should expand
-    quadrant-2 Need to promote
-    quadrant-3 Re-evaluate
-    quadrant-4 May be improved
+    title 캠페인 도달 및 참여
+    x-axis "낮은 도달" --> "높은 도달"
+    y-axis "낮은 참여 " --> "높은 참여"
+    quadrant-1 "확장 필요"
+    quadrant-2 "홍보 필요"
+    quadrant-3 "재평가"
+    quadrant-4 "개선 가능"
     Campaign A: [0.3, 0.6]
     Campaign B: [0.45, 0.23]
     Campaign C: [0.57, 0.69]
@@ -463,13 +463,13 @@ quadrantChart
 
 ```
 quadrantChart
-    title Reach and engagement of campaigns
-    x-axis Low Reach --> High Reach
-    y-axis Low Engagement --> High Engagement
-    quadrant-1 We should expand
-    quadrant-2 Need to promote
-    quadrant-3 Re-evaluate
-    quadrant-4 May be improved
+    title 캠페인 도달 및 참여
+    x-axis "낮은 도달" --> "높은 도달"
+    y-axis "낮은 참여 " --> "높은 참여"
+    quadrant-1 "확장 필요"
+    quadrant-2 "홍보 필요"
+    quadrant-3 "재평가"
+    quadrant-4 "개선 가능"
     Campaign A: [0.3, 0.6]
     Campaign B: [0.45, 0.23]
     Campaign C: [0.57, 0.69]
@@ -558,15 +558,15 @@ sequenceDiagram
 
 
 ## 활용 사례 1: HTML에 다이어그램 표현
-https://codepen.io/123unme/pen/BQwZzq
-Text Input: https://codepen.io/Ryuno-Ki/pen/LNxwgR
+- https://codepen.io/123unme/pen/BQwZzq
+- https://codepen.io/Ryuno-Ki/pen/LNxwgR
 
 ## 활용 사례 2: 다이어그램 가이드 작성
-https://kubernetes.io/docs/contribute/style/diagram-guide/
-https://www.kubernetes.dev/blog/2021/12/01/improve-your-documentation-with-mermaid.js-diagrams/
+- https://kubernetes.io/docs/contribute/style/diagram-guide/
+- https://www.kubernetes.dev/blog/2021/12/01/improve-your-documentation-with-mermaid.js-diagrams/
 
 ## 활용 사례 3: 프로젝트 문서 설명
-https://github.com/monolith-rnd/sgp-guild-api
-https://github.com/monolith-rnd/mommos-cli
+- https://github.com/monolith-rnd/sgp-guild-api
+- https://github.com/monolith-rnd/mommos-cli
 
 
