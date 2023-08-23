@@ -569,4 +569,5 @@ sequenceDiagram
 - https://github.com/monolith-rnd/sgp-guild-api
 - https://github.com/monolith-rnd/mommos-cli
 
-
+## 활용 사례 3: ChatGPT와의 협업
+- [ChatGPT](https://chat.openai.com/)
