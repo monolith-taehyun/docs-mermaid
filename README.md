@@ -551,7 +551,7 @@ sequenceDiagram
 sequenceDiagram
 	요리->>+타이머: 3분 후 알림
 	타이머-->>-요리: 완료!
-	Note left of 타이머: mirrorActors(아래부분 시퀀스) 표시안함
+	Note left of 타이머: mirrorActors(아래부분 시퀀스) 표시
 ```
 
 [지시문 사용 방법](https://mermaid.js.org/config/directives.html)
