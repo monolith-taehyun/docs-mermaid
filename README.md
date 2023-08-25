@@ -34,7 +34,7 @@ sequenceDiagram
 ```
 
 ## Mermaid.js 소개
-- Markdown에서 영감을 받은 개발됨.
+- Markdown에서 영감을 받아 개발됨.
 - 텍스트 정의를 렌더링하여 다이어그램을 동적으로 생성하고 수정하는 JavaScript 기반 다이어그램 작성 및 차트 작성 도구
 - 개발자의 아이들이 TV로 인어공주를 보는 동안 사이드 프로젝트를 시작해 이름을 `Mermaid`로 작명
 - 마크업 텍스트만으로 각종 다이어그램을 표현하는 것이 가능
@@ -501,7 +501,7 @@ pie title Pets adopted by volunteers
 [파이 차트 구문](https://mermaid.js.org/syntax/pie.html)
 
 ### 사분면 차트(Quadrant Chart)
-숫자 비율을 보여주기 위해 여러 조각으로 나누어진 원형 통계 그래픽입니다.
+사분면 차트는 4개의 사분면으로 나누어진 데이터를 시각적으로 표현한 것입니다. 하나의 변수는 x축에 표시되고 다른 변수는 y축에 표시되는 2차원 격자에 데이터 포인트를 그리는 데 사용됩니다. 사분면은 분석 중인 데이터와 관련된 일련의 기준에 따라 차트를 4개의 동일한 부분으로 나누어 결정됩니다. 사분면 차트는 데이터의 패턴과 추세를 식별하고 차트 내 데이터 포인트의 위치에 따라 작업의 우선순위를 지정하는 데 자주 사용됩니다. 이는 비즈니스, 마케팅, 위험 관리 등의 분야에서 일반적으로 사용됩니다.
 
 ```mermaid
 quadrantChart
@@ -540,7 +540,7 @@ quadrantChart
 [사분면 차트 구문](https://mermaid.js.org/syntax/quadrantChart.html)
 
 ### 마인드맵(Mind Map)
-숫자 비율을 보여주기 위해 여러 조각으로 나누어진 원형 통계 그래픽입니다.
+마인드 맵은 정보를 계층 구조로 시각적으로 구성하는 데 사용되는 다이어그램으로, 전체 조각 간의 관계를 보여줍니다. 종종 빈 페이지 중앙에 이미지로 그려지는 단일 개념을 중심으로 생성되며, 관련 표현이 여기에 표시됩니다. 이미지, 단어, 단어의 일부와 같은 아이디어가 추가됩니다. 주요 아이디어는 중심 개념에 직접 연결되고, 다른 아이디어는 이러한 주요 아이디어에서 파생됩니다.
 
 ```mermaid
 mindmap
@@ -628,5 +628,5 @@ sequenceDiagram
 - https://github.com/monolith-rnd/sgp-guild-api
 - https://github.com/monolith-rnd/mommos-cli
 
-## 활용 사례 3: ChatGPT와의 협업
+## 활용 사례 4: ChatGPT와의 협업
 - [ChatGPT](https://chat.openai.com/)
